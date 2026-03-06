@@ -1,123 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-<title>Clipo Office</title>
 <meta charset="UTF-8">
+<title>Minha Página</title>
 
 <style>
 
 body{
-font-family: -apple-system, BlinkMacSystemFont, Arial;
 margin:0;
+font-family:Arial, Helvetica, sans-serif;
 background:#0f172a;
 color:white;
-}
-
-/* NAVBAR */
-
-.nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 60px;
-}
-
-.logo{
-font-size:22px;
-font-weight:bold;
-}
-
-.nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-/* HERO */
-
-.hero{
-text-align:center;
-padding:120px 20px;
-max-width:900px;
-margin:auto;
-}
-
-.hero h1{
-font-size:64px;
-margin-bottom:10px;
-}
-
-.hero h2{
-font-size:28px;
-color:#94a3b8;
-font-weight:normal;
-}
-
-.hero p{
-font-size:20px;
-color:#cbd5f5;
-margin-top:30px;
-}
-
-/* BUTTON */
-
-.button{
-display:inline-block;
-margin-top:40px;
-background:#22c55e;
-padding:16px 40px;
-border-radius:10px;
-text-decoration:none;
-color:white;
-font-size:18px;
-font-weight:bold;
-}
-
-/* FEATURES */
-
-.section{
-padding:100px 20px;
 text-align:center;
 }
 
-.features{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:40px;
-max-width:1000px;
-margin:auto;
-margin-top:50px;
-}
-
-.feature{
-background:#1e293b;
-padding:30px;
-border-radius:12px;
-}
-
-.feature h3{
-margin-bottom:10px;
-}
-
-/* NEWSLETTER */
-
-.newsletter{
+header{
 background:#020617;
-padding:100px 20px;
-text-align:center;
+padding:30px;
+font-size:28px;
+font-weight:bold;
 }
 
-.newsletter h2{
-font-size:36px;
-}
-
-/* FOOTER */
-
-.footer{
-text-align:center;
+main{
 padding:40px;
-color:#94a3b8;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
 font-size:14px;
+color:#94a3b8;
 }
 
 </style>
@@ -126,86 +52,29 @@ font-size:14px;
 
 <body>
 
-<div class="nav">
-<div class="logo">Clipo Office</div>
+<header>
+Meu Projeto
+</header>
 
-<div>
-<a href="#">Home</a>
-<a href="#">Newsletter</a>
-<a href="#">Insights</a>
-</div>
-</div>
+<main>
 
-<section class="hero">
-
-<h1>Market Intelligence</h1>
-
-<h2>Business trends, technology and global opportunities</h2>
+<h1>Bem-vindo</h1>
 
 <p>
-Clipo Office analyzes the most important movements in business, startups,
-AI and the global economy. Every week we publish insights, market
-opportunities and strategic news for investors and entrepreneurs.
+Este é meu site simples publicado no GitHub.
 </p>
 
-<a class="button" href="https://clipooffice.substack.com/p/clipo-office-market-intelligence?r=7uwjww&utm_campaign=post&utm_medium=web&triedRedirect=true&_src_ref=clipoofficee.github.io" target="_blank">
-Subscribe to the Weekly Report
-</a>
+<br>
 
-</section>
+<button onclick="window.location.href='https://SEULINK.substack.com'">
+Ir para o Substack
+</button>
 
-<section class="section">
+</main>
 
-<h2>What We Cover</h2>
-
-<div class="features">
-
-<div class="feature">
-<h3>Artificial Intelligence</h3>
-<p>Emerging AI companies and the next wave of innovation.</p>
-</div>
-
-<div class="feature">
-<h3>Startups</h3>
-<p>New business models and disruptive founders.</p>
-</div>
-
-<div class="feature">
-<h3>Technology</h3>
-<p>The most important tech movements shaping the future.</p>
-</div>
-
-<div class="feature">
-<h3>Crypto & Finance</h3>
-<p>Digital assets, markets and financial infrastructure.</p>
-</div>
-
-<div class="feature">
-<h3>Global Economy</h3>
-<p>Macro trends and international business opportunities.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="newsletter">
-
-<h2>Join Clipo Office</h2>
-
-<p>
-Receive weekly market intelligence and curated insights directly in your inbox.
-</p>
-
-<a class="button" href="https://clipooffice.substack.com/p/clipo-office-market-intelligence?r=7uwjww&utm_campaign=post&utm_medium=web&triedRedirect=true&_src_ref=clipoofficee.github.io" target="_blank">
-Subscribe
-</a>
-
-</section>
-
-<div class="footer">
-© Clipo Office
-</div>
+<footer>
+© 2026 Meu Projeto
+</footer>
 
 </body>
 </html>
